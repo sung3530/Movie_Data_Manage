@@ -9,9 +9,9 @@ public class Manager {
 		movie_Manager=new Movie_Manager();
 		time_Manager = new Time_Manager();
 	}
-	
-	public void makeTable(){
-		movie_Manager.movie_Reranked();//ÀÌ ÇÔ¼ö¸¦ ½ÇÇà½ÃÅ°¸é movie_ManagerÀÇ movieList¾È¿¡ ¿øÇÏ´Â °ªµéÀÌ ÀúÀåµÈ´Ù.
+	//ã…‹ã…‹ã…‹ã…‹	
+public void makeTable(){
+		movie_Manager.movie_Reranked();//ì´ í•¨ìˆ˜ë¥¼ ì‹¤í–‰ì‹œí‚¤ë©´ movie_Managerì˜ movieListì•ˆì— ì›í•˜ëŠ” ê°’ë“¤ì´ ì €ì¥ëœë‹¤.
 		
 	}
 
